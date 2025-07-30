@@ -57,7 +57,7 @@ const HeroSection = () => {
             </div>
             <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
             {/*Takes up 5 columns on large screens. Centers itself on the grid. Top margin on mobile of 4 remove top margin on large screens.*/}
-                <div className='relative rounded-full bg-[#525151] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] overflow-hidden'>
+                <div className='relative rounded-full bg-[#525151] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] overflow-hidden'>
                     {/*"relative" sets a positioning context for the imagine inside. Circular container. Gray background in case image doesn't load.
                         Fized size of 250x250, 400x400 on larger screens. Hides anything outside of the circular area.*/}
                     <Image

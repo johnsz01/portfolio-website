@@ -1,6 +1,6 @@
-import Link from 'next/link'; {/* Link from next.js is used for client sided navigation and is faster than normal <a> tags.
+import Link from 'next/link'; 
+{/* Link from next.js is used for client sided navigation and is faster than normal <a> tags.
     It helps with routing without reloading the page.*/}
-// <a> tags 
 
 const NavLink = ({ href, title }) => { 
 {/* This is a react functional component, ref is the path to navigate to and the title is the name given to it. */}
