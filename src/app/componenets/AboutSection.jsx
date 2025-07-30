@@ -44,7 +44,25 @@ const TAB_DATA = [
                 <li>Node.js</li>
             </ul>
         )
-    }
+        
+    },
+
+    {
+        title: "Favorite Games",
+        id: "games",
+        content: (
+            <ul className='list-disc pl-2 columns-2'>
+                <li> League Of Legends </li>
+                <li> Minecraft </li>
+                <li> Super Smash Bros </li>
+                <li> Celeste </li>
+                <li> Terraria </li>
+                <li> Marvel Rivals</li>
+                <li> Animal Crossing </li>
+                <li> Plate Up </li>
+            </ul>
+        )
+    },
 ] /* This is the data contained within the different tabs. */
 
 const AboutSection = () => {
@@ -78,6 +96,7 @@ const AboutSection = () => {
                     <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}> Education </TabButton> {/* See the TabButton.jsx file */}
                     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> Skills </TabButton>
                     <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}> Experience </TabButton>
+                    <TabButton selectTab={() => handleTabChange("games")} active={tab === "games"}> Favorite Games </TabButton>
                 </div>
                 <div className='mt-6'>
                     {TAB_DATA.find((t) => t.id === tab).content} {/* Looks for the tab data within the array and displays it dynamically. */}
