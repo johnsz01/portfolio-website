@@ -27,6 +27,7 @@ const TAB_DATA = [
                 <li>Computer Science</li>
                 <li>Bachelor's of Science</li>
                 <li>Florida International University</li>
+                <li>2025 // GPA - 3.71</li>
             </ul>
         )
     },
@@ -95,7 +96,7 @@ const AboutSection = () => {
                 <div className='flex flex-row justify-start mt-6'>
                     <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}> Education </TabButton> {/* See the TabButton.jsx file */}
                     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}> Skills </TabButton>
-                    <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}> Experience </TabButton>
+                    {/* <TabButton selectTab={() => handleTabChange("experience")} active={tab === "experience"}> Experience </TabButton> */} {/* Add experience. */}
                     <TabButton selectTab={() => handleTabChange("games")} active={tab === "games"}> Favorite Games </TabButton>
                 </div>
                 <div className='mt-6'>
