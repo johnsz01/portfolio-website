@@ -10,7 +10,7 @@ const projectsData = [
         description: "A personal website used to share my projects, acomplishments, and interests.",
         image: "images/projectImages/portfolioPorject.png",
         tag: ["All", "Web"],
-        link1: "/",
+        gitHubLink: "/",
         link2: "/",
         hasSource: true
     },
@@ -20,7 +20,6 @@ const projectsData = [
         description: "Description",
         image: "images/placeholder.png",
         tag: ["All", "Web"],
-        link1: "/",
         link2: "/",
         hasSource: false
     },
@@ -67,7 +66,7 @@ const ProjectSection = () => {
         title={project.title} 
         description={project.description} 
         imgUrl={project.image} 
-        link1={project.link1} 
+        gitHubLink={project.gitHubLink} 
         link2={project.link2}
         hasSource={project.hasSource}
         />)}

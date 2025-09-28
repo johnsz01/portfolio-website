@@ -24,7 +24,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul className='pl-2'>
-                <li>Computer Science</li>
+                <li className='font-bold text-[#be3cbe]'>Computer Science</li>
                 <li>Bachelor's of Science</li>
                 <li>Florida International University</li>
                 <li>2025 // GPA - 3.71</li>

@@ -46,7 +46,7 @@ const HeroSection = () => {
                 consequatur commodi provident accusamus dolorum sequi cum.
                 </p>
                 <div>
-                    <button className='px-6 py-3 mb-3 sm:mb-0 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#093fa3] via-[#570996] to-[#be3cbe] hover:bg-[#a1a5a7] text-[#ffffff]'>
+                    <button className='px-6 py-3 mb-3 sm:mb-0 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#093fa3] via-[#570996] to-[#be3cbe] hover:bg-[#a8acaf] text-[#ffffff]'>
                     {/*X and Y padding (Inside the button). If small screen  have padding below. Fit full screen if small screen. Fully rounded. Right margin.
                     Gradient background form color, via color, to color. On hover change color. White text*/}
                         Download CV
@@ -59,7 +59,7 @@ const HeroSection = () => {
             </div>
             <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
             {/*Takes up 5 columns on large screens. Centers itself on the grid. Top margin on mobile of 4 remove top margin on large screens.*/}
-                <div className='relative rounded-full bg-[#525151] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] overflow-hidden'>
+                <div className='relative rounded-full bg-[#4d4d4d] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] overflow-hidden'>
                     {/*"relative" sets a positioning context for the imagine inside. Circular container. Gray background in case image doesn't load.
                         Fized size of 250x250, 400x400 on larger screens. Hides anything outside of the circular area.*/}
                     <Image
